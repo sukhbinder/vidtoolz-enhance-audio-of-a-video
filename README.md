@@ -24,6 +24,24 @@ vidtoolz install vidtoolz-enhance-audio-of-a-video
 
 type ``vid enhance --help`` to get help
 
+```
+usage: vid enhance [-h] [-o OUTPUT] [-m {voice,music}] [-v VOLUME] input
+
+Enhance audio of a video using ffmpeg
+
+positional arguments:
+  input                 Input video file (e.g., input.mp4)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Output video file (e.g., input_enhance.mp4)
+  -m {voice,music}, --mode {voice,music}
+                        Enhancement mode: 'voice' or 'music' (default: voice)
+  -v VOLUME, --volume VOLUME
+                        Volume multiplier (default: 1.5)
+
+```
 
 
 ## Development
